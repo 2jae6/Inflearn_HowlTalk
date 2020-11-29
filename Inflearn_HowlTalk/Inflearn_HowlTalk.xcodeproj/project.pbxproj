@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F772E02573E3F900C7B5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F772DF2573E3F900C7B5D8 /* AppDelegate.swift */; };
+		00F772E22573E3F900C7B5D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F772E12573E3F900C7B5D8 /* SceneDelegate.swift */; };
+		00F772E42573E3F900C7B5D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F772E32573E3F900C7B5D8 /* ViewController.swift */; };
+		00F772E72573E3F900C7B5D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F772E52573E3F900C7B5D8 /* Main.storyboard */; };
+		00F772EA2573E3F900C7B5D8 /* Inflearn_HowlTalk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00F772E82573E3F900C7B5D8 /* Inflearn_HowlTalk.xcdatamodeld */; };
+		00F772EC2573E3FA00C7B5D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F772EB2573E3FA00C7B5D8 /* Assets.xcassets */; };
+		00F772EF2573E3FA00C7B5D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F772ED2573E3FA00C7B5D8 /* LaunchScreen.storyboard */; };
+		7D1FCE2CEA0D2FFBD6D603C0 /* Pods_Inflearn_HowlTalk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36505DB36A71E9B0992583C3 /* Pods_Inflearn_HowlTalk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F772DC2573E3F900C7B5D8 /* Inflearn_HowlTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inflearn_HowlTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F772DF2573E3F900C7B5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00F772E12573E3F900C7B5D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00F772E32573E3F900C7B5D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00F772E62573E3F900C7B5D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F772E92573E3F900C7B5D8 /* Inflearn_HowlTalk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Inflearn_HowlTalk.xcdatamodel; sourceTree = "<group>"; };
+		00F772EB2573E3FA00C7B5D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00F772EE2573E3FA00C7B5D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00F772F02573E3FA00C7B5D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A15304B341D348F98180AB7 /* Pods-Inflearn_HowlTalk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inflearn_HowlTalk.release.xcconfig"; path = "Target Support Files/Pods-Inflearn_HowlTalk/Pods-Inflearn_HowlTalk.release.xcconfig"; sourceTree = "<group>"; };
+		36505DB36A71E9B0992583C3 /* Pods_Inflearn_HowlTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Inflearn_HowlTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E04E3123D57DB8BD32A94E1F /* Pods-Inflearn_HowlTalk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Inflearn_HowlTalk.debug.xcconfig"; path = "Target Support Files/Pods-Inflearn_HowlTalk/Pods-Inflearn_HowlTalk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F772D92573E3F900C7B5D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D1FCE2CEA0D2FFBD6D603C0 /* Pods_Inflearn_HowlTalk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F772D32573E3F900C7B5D8 = {
+			isa = PBXGroup;
+			children = (
+				00F772DE2573E3F900C7B5D8 /* Inflearn_HowlTalk */,
+				00F772DD2573E3F900C7B5D8 /* Products */,
+				5D603C250F5A9794BAE762A4 /* Pods */,
+				35947EA79A72A1B03D9B89E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00F772DD2573E3F900C7B5D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F772DC2573E3F900C7B5D8 /* Inflearn_HowlTalk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F772DE2573E3F900C7B5D8 /* Inflearn_HowlTalk */ = {
+			isa = PBXGroup;
+			children = (
+				00F772DF2573E3F900C7B5D8 /* AppDelegate.swift */,
+				00F772E12573E3F900C7B5D8 /* SceneDelegate.swift */,
+				00F772E32573E3F900C7B5D8 /* ViewController.swift */,
+				00F772E52573E3F900C7B5D8 /* Main.storyboard */,
+				00F772EB2573E3FA00C7B5D8 /* Assets.xcassets */,
+				00F772ED2573E3FA00C7B5D8 /* LaunchScreen.storyboard */,
+				00F772F02573E3FA00C7B5D8 /* Info.plist */,
+				00F772E82573E3F900C7B5D8 /* Inflearn_HowlTalk.xcdatamodeld */,
+			);
+			path = Inflearn_HowlTalk;
+			sourceTree = "<group>";
+		};
+		35947EA79A72A1B03D9B89E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36505DB36A71E9B0992583C3 /* Pods_Inflearn_HowlTalk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D603C250F5A9794BAE762A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E04E3123D57DB8BD32A94E1F /* Pods-Inflearn_HowlTalk.debug.xcconfig */,
+				0A15304B341D348F98180AB7 /* Pods-Inflearn_HowlTalk.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F772DB2573E3F900C7B5D8 /* Inflearn_HowlTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F772F32573E3FA00C7B5D8 /* Build configuration list for PBXNativeTarget "Inflearn_HowlTalk" */;
+			buildPhases = (
+				7D01B3B3CBAB1CA3802BC0A8 /* [CP] Check Pods Manifest.lock */,
+				00F772D82573E3F900C7B5D8 /* Sources */,
+				00F772D92573E3F900C7B5D8 /* Frameworks */,
+				00F772DA2573E3F900C7B5D8 /* Resources */,
+				C9CF26A853B810D49B4AD8C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inflearn_HowlTalk;
+			productName = Inflearn_HowlTalk;
+			productReference = 00F772DC2573E3F900C7B5D8 /* Inflearn_HowlTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F772D42573E3F900C7B5D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					00F772DB2573E3F900C7B5D8 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 00F772D72573E3F900C7B5D8 /* Build configuration list for PBXProject "Inflearn_HowlTalk" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00F772D32573E3F900C7B5D8;
+			productRefGroup = 00F772DD2573E3F900C7B5D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F772DB2573E3F900C7B5D8 /* Inflearn_HowlTalk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F772DA2573E3F900C7B5D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F772EF2573E3FA00C7B5D8 /* LaunchScreen.storyboard in Resources */,
+				00F772EC2573E3FA00C7B5D8 /* Assets.xcassets in Resources */,
+				00F772E72573E3F900C7B5D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D01B3B3CBAB1CA3802BC0A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Inflearn_HowlTalk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CF26A853B810D49B4AD8C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inflearn_HowlTalk/Pods-Inflearn_HowlTalk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Inflearn_HowlTalk/Pods-Inflearn_HowlTalk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Inflearn_HowlTalk/Pods-Inflearn_HowlTalk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F772D82573E3F900C7B5D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F772E42573E3F900C7B5D8 /* ViewController.swift in Sources */,
+				00F772E02573E3F900C7B5D8 /* AppDelegate.swift in Sources */,
+				00F772EA2573E3F900C7B5D8 /* Inflearn_HowlTalk.xcdatamodeld in Sources */,
+				00F772E22573E3F900C7B5D8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00F772E52573E3F900C7B5D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F772E62573E3F900C7B5D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00F772ED2573E3FA00C7B5D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F772EE2573E3FA00C7B5D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F772F12573E3FA00C7B5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00F772F22573E3FA00C7B5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00F772F42573E3FA00C7B5D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E04E3123D57DB8BD32A94E1F /* Pods-Inflearn_HowlTalk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = Inflearn_HowlTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Inflearn-HowlTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00F772F52573E3FA00C7B5D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A15304B341D348F98180AB7 /* Pods-Inflearn_HowlTalk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATSSYJGN7N;
+				INFOPLIST_FILE = Inflearn_HowlTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.owl.memo.Inflearn-HowlTalk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F772D72573E3F900C7B5D8 /* Build configuration list for PBXProject "Inflearn_HowlTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F772F12573E3FA00C7B5D8 /* Debug */,
+				00F772F22573E3FA00C7B5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F772F32573E3FA00C7B5D8 /* Build configuration list for PBXNativeTarget "Inflearn_HowlTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F772F42573E3FA00C7B5D8 /* Debug */,
+				00F772F52573E3FA00C7B5D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00F772E82573E3F900C7B5D8 /* Inflearn_HowlTalk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00F772E92573E3F900C7B5D8 /* Inflearn_HowlTalk.xcdatamodel */,
+			);
+			currentVersion = 00F772E92573E3F900C7B5D8 /* Inflearn_HowlTalk.xcdatamodel */;
+			path = Inflearn_HowlTalk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00F772D42573E3F900C7B5D8 /* Project object */;
+}
