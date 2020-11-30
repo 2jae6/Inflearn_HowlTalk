@@ -7,4 +7,5 @@ target 'Inflearn_HowlTalk' do
 
   # Pods for Inflearn_HowlTalk
 pod 'SnapKit', '~> 5.0.0'
+pod 'Firebase'
 end

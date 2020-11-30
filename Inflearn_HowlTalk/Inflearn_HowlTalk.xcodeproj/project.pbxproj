@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000FE15225752FB4009DAF9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 000FE15125752FB4009DAF9C /* GoogleService-Info.plist */; };
 		00F772E02573E3F900C7B5D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F772DF2573E3F900C7B5D8 /* AppDelegate.swift */; };
 		00F772E22573E3F900C7B5D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F772E12573E3F900C7B5D8 /* SceneDelegate.swift */; };
 		00F772E42573E3F900C7B5D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F772E32573E3F900C7B5D8 /* ViewController.swift */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000FE15125752FB4009DAF9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		000FE17925753381009DAF9C /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F772DC2573E3F900C7B5D8 /* Inflearn_HowlTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Inflearn_HowlTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00F772DF2573E3F900C7B5D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00F772E12573E3F900C7B5D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		00F772DE2573E3F900C7B5D8 /* Inflearn_HowlTalk */ = {
 			isa = PBXGroup;
 			children = (
+				000FE15125752FB4009DAF9C /* GoogleService-Info.plist */,
 				00F772DF2573E3F900C7B5D8 /* AppDelegate.swift */,
 				00F772E12573E3F900C7B5D8 /* SceneDelegate.swift */,
 				00F772E32573E3F900C7B5D8 /* ViewController.swift */,
@@ -80,6 +84,7 @@
 		35947EA79A72A1B03D9B89E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				000FE17925753381009DAF9C /* SnapKit.framework */,
 				36505DB36A71E9B0992583C3 /* Pods_Inflearn_HowlTalk.framework */,
 			);
 			name = Frameworks;
@@ -91,7 +96,6 @@
 				E04E3123D57DB8BD32A94E1F /* Pods-Inflearn_HowlTalk.debug.xcconfig */,
 				0A15304B341D348F98180AB7 /* Pods-Inflearn_HowlTalk.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00F772EF2573E3FA00C7B5D8 /* LaunchScreen.storyboard in Resources */,
+				000FE15225752FB4009DAF9C /* GoogleService-Info.plist in Resources */,
 				00F772EC2573E3FA00C7B5D8 /* Assets.xcassets in Resources */,
 				00F772E72573E3F900C7B5D8 /* Main.storyboard in Resources */,
 			);
