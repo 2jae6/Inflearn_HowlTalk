@@ -9,6 +9,7 @@ import UIKit
 import SnapKit
 import Firebase
 
+
 class ViewController: UIViewController {
 
     
@@ -28,8 +29,7 @@ class ViewController: UIViewController {
         remoteConfig.configSettings = settings
 
         
-        
-        
+  
         self.view.addSubview(box)
         box.snp.makeConstraints{ (make) in
             make.center.equalTo(self.view)

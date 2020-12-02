@@ -11,7 +11,7 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>FirebaseAnalytics.xcscheme</key>
+		<key>FirebaseABTesting.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -39,7 +39,7 @@
 			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
-		<key>GoogleAppMeasurement.xcscheme</key>
+		<key>FirebaseRemoteConfig.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
